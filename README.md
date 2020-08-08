@@ -3,3 +3,6 @@ This series of files will help automate the waitlist check in process for UMD. I
 
 ## Duo Bypass
 Because the Waitlist check-in process through TESTUDO at UMD uses 2 factor authentication, it was necessary to use a script for the phone as well. To achieve this, I used the Automate app for Android. The .flo file can be opened and used through the Automate app. The time awaits block can be changed to whatever time is desired to run the script. One of the last blocks that opens the app may need to be modified for the individual user because their Duo app may not be in the same place mine is. If all goes well, running this file on the Automate app should open the Duo app and approve a log in request when one is sent by the other files in this project.
+
+## WaitlistAutomate.bat
+This file is exclusively used to schedule the python script to run at a designated time everyday. This way the student doesn't have to worry about checking in for a class they've been waitlisted for and losing their spot if they forget. The file locations in the quotes should be changed in order to have the .bat file work properly. More about how to make this functional with Windows Task Scheduler can be read here: https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279
