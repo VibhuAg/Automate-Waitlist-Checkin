@@ -1,5 +1,5 @@
 # Automating the Waitlist Check-in for Testudo
 This series of files will help automate the waitlist check in process for UMD. It uses the pyautogui library and the Automate app on Android to automate swipe and click gestures on both the phone and computer. The bat file can be used with the Windows task scheduler to automatically run the script at a specified time howsoever often desired.
 
-# # Duo Bypass
+## Duo Bypass
 Because the Waitlist check-in process through TESTUDO at UMD uses 2 factor authentication, it was necessary to use a script for the phone as well. To achieve this, I used the Automate app for Android. The .flo file can be opened and used through the Automate app. The time awaits block can be changed to whatever time is desired to run the script. One of the last blocks that opens the app may need to be modified for the individual user because their Duo app may not be in the same place mine is. If all goes well, running this file on the Automate app should open the Duo app and approve a log in request when one is sent by the other files in this project.
